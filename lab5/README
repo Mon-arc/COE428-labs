@@ -1,0 +1,13 @@
+Hassan Elshikh, 501263004
+
+Question:
+Another legal XML tag not used in this lab is the "stand-alone" tag. This kind of
+tag combines both a start-tag and end-tag in one. It is identified with a '/'
+(slash) preceding the final >. (For example, the <foo/> is a stand-alone tag
+that is "self balancing".
+Describe briefly how you would modify Requirement 1 to allow this kind of tag.
+
+Answer:
+To support stand-alone XML tags like <foo/>, the program should be modified to detect when a tag ends with a '/' just before the closing '>'. These tags are self balancing which implies that they should not be pushed onto or popped from the stack. After reading a tag, tthe program can check if the last character is a '/' and if it is, simply skip any stack operations for that tag.
+
+
