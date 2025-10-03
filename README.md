@@ -1,4 +1,4 @@
-# COE428 — Software Systems
+# COE428 — Algorithms and Data Structures
 
 #### This repository contains my Lab work for Algorithm and Data-Structures (COE428) at TMU. Each folder corresponds to one lab assignment. Below is a summary of each lab with links to the official TMU lab specifications.  If you are a student at TMU, do not copy/plagiarize my work (Policy 60). 
 
